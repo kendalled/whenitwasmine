@@ -1,0 +1,414 @@
+<!doctype html>
+<!--
+	Lapel Pins and Coins
+-->
+<html lang="en">
+
+<head>
+  <title>Order Now - Lapel Pins and Coins</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+  <meta name="description"
+    content="Lapel Pins and Coins makes ordering easy. In just a few clicks you'll receive your receipt via email. Military, Sports Events, and Hobbyists love our customer service and speed." />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans:300,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="assets/css/pikaday.css" />
+  <link rel="icon" href="lpcfavicon.ico" type="image/x-icon" />
+  <link rel="canonical" href="https://lapelpinsandcoins.com/checkout" />
+  <link rel="alternate" hreflang="en-us" href="https://lapelpinsandcoins.com/checkout" />
+  <style>
+    @media screen and (min-width: 1280px) {
+      #main {
+        padding: 3.5rem 0 5rem 0;
+      }
+    }
+  </style>
+</head>
+
+<body class="is-preload">
+
+  <!-- Header -->
+  <header id="header">
+    <div class="inner">
+      <a href="/" id="logolink"><img class="logo" src="images/lapel.png" alt="PNG Logo for Lapel Pins & Coins."></a>
+      <nav id="nav">
+        <ul>
+
+          <li>
+            <a href="lapelpins">Lapel Pins</a>
+            <ul>
+              <li><a title="Links to custom soft enamel pins" href="softenamel">Soft Enamel</a></li>
+              <li><a title="Links to custom hard enamel pins" href="hardenamel">Hard Enamel</a></li>
+              <li><a title="Links to custom die struck pins" href="diestruck">Die Struck</a></li>
+              <li><a title="Links to custom offset printed pins" href="offsetprinted">Offset Printed</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="challengecoins">Challenge Coins</a>
+          </li>
+          <li><a href="keychains">Keychains</a></li>
+
+          <li><a href="quote">Free Quote</a></li>
+          <li>
+            <a href="account">My Account</a>
+
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <div id="main">
+    <div class="inner">
+
+      <!-- Content -->
+      <div id="content">
+
+        <section id="quoteform" style="max-width: 900px; margin: 0 auto;">
+          <ul class="actions fixed" id="functionBtns">
+            <li><a href="#" class="button icon fa-arrow-left fit small" id="rstbtn"
+                title="Goes back in the form.">Back</a></li>
+
+          </ul>
+          <div id="choice">
+            <header class="quoteHeader">
+              <h1>Complete Your Order<span id="customername"></span></h1>
+
+              <p id="changetext">Enter your shipping information to checkout.</p>
+            </header>
+
+
+
+            <form name="Checkout Request" method="post" id="shippingInfo" style="display: block;">
+
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-xsmall" id="checkout1">
+                  <input type="text" name="Name" id="name" value="" placeholder="Full Name*" required />
+                </div>
+                <div class="col-6 col-12-xsmall" id="checkout2">
+                  <input type="email" name="Email" id="email" value="" placeholder="Email*" required />
+                </div>
+
+                <div class="col-6 col-12-xsmall">
+
+                  <input type="text" name="Shipping Address" id="Shipping-address" value=""
+                    placeholder="Street Address*" required>
+
+                </div>
+
+                <!-- Shipping Address City -->
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="City" id="Shipping-address3" value="" placeholder="City*" required>
+                </div>
+                <div class="col-6 col-12-xsmall">
+
+                  <select id="state" name="State" required>
+                    <option value="">- Select State -</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="Shipping Address, Line Two" id="line2" value=""
+                    placeholder="Shipping Address, Line Two (Optional)" />
+                </div>
+                <div class="col-6 col-12-xsmall" style="padding-top: 0;">
+                  <hr />
+                  <input type="text" name="ZIP Code" id="zip" value="" placeholder="ZIP Code*" required>
+                </div>
+                <div class="col-6 col-12-xsmall" style="padding-top: 0;">
+                  <hr />
+                  <input type="text" name="Phone Number" id="phoneNumber" value="" placeholder="Phone Number*"
+                    required />
+                </div>
+
+                <!-- Break -->
+                <div class="col-12">
+                  <ul class="actions fixed" style="float: right;">
+                    <li><input type="submit" id="toBilling" value="Continue" /></li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+            <form method="post" id="payment-form" style="display: none;">
+              <div class="form-row">
+                <label for="card-element">
+                  Credit or Debit:
+                </label>
+                <div id="card-element">
+                  <!-- A Stripe Element will be inserted here. -->
+                </div>
+
+                <!-- Used to display Element errors. -->
+                <div id="card-errors" role="alert"></div>
+              </div>
+
+
+              <div class="col-12 col-12-xsmall">
+                <br>
+                <ul class="actions" style="float: right;">
+                  <li><input type="submit" value="Continue" /></li>
+                </ul>
+                <br />
+              </div>
+
+            </form>
+
+            <form action="https://formspree.io/xpvzwkzx" method="POST" id="final-details" style="display: none;">
+              <input type="hidden" name="_next" value="https://lapelpinsandcoins.com/thanks" />
+              <input type="hidden" id="userID" name="User ID" />
+              <!-- Start transferData form fields -->
+              <input type="hidden" id="hiddenName" name="Customer Name" />
+              <input type="hidden" id="hiddenEmail" name="Email" />
+              <input type="hidden" id="hiddenline1" name="Address, Line 1" />
+              <input type="hidden" id="hiddenline2" name="Address, Line 2" />
+              <input type="hidden" id="hiddenCity" name="City" />
+              <input type="hidden" id="hiddenState" name="State" />
+              <input type="hidden" id="hiddenZip" name="ZIP Code" />
+              <input type="hidden" id="hiddenPhone" name="hiddenPhone" />
+
+
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="Reference Name" id="proofName" value="" placeholder="Name on Art Proof*"
+                    required />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="Proof Number" id="proofNumber" value="" placeholder="Art Proof Number*"
+                    required />
+                </div>
+
+
+                <div class="col-6 col-12-xsmall">
+                  <h4>Order Total:</h4>
+                  <input type="text" name="Order Total" id="ordertotal" value="" placeholder="0.00*" required />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <h4>Order Deadline:</h4>
+                  <input type="text" name="Deadline Date" id="datepicker" placeholder="Select a Date (Optional)"
+                    autocomplete="off">
+                </div>
+
+
+              </div>
+
+              <!-- Break -->
+              <div class="col-12">
+                <br>
+                <ul class="actions fixed" style="float: right;">
+                  <li><input type="submit" id="runCharge" value="Complete Checkout" /></li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="inner">
+      <div class="content">
+        <section>
+          <header>
+            <img id="logo" src="images/lapel.png" alt="PNG Logo for Lapel Pins & Coins.">
+          </header>
+          <ul class="alt">
+            <li><a href="#">Frequently Asked Questions (F.A.Q)</a></li>
+            <li><a href="#">Ordering Process</a></li>
+            <li><a href="#">Shipping & Handling</a></li>
+
+            <li><a href="quote" title="Links to the free quote request form.">Sitemap</a></li>
+            <li><a id="ordernow" href="checkout" title="Links to checkout.">Order Now</a></li>
+          </ul>
+        </section>
+        <section>
+          <header>
+            <h2>Navigation Links</h2>
+          </header>
+          <ul class="alt">
+            <li><a href="lapelpins" title="Links to lapel pins page."> Lapel Pins</a></li>
+            <li><a href="challengecoins" title="Links to challenge coins page.">Challenge Coins</a></li>
+            <li><a href="keychains" title="Links to keychains page.">Keychains</a></li>
+            <li><a href="quote" title="Links to quote page.">Free Quote</a></li>
+            <li><a href="privacy" title="Links to privacy policy.">Privacy Policy</a></li>
+          </ul>
+        </section>
+
+
+        <section>
+          <header>
+            <h2>Get in touch</h2>
+          </header>
+          <ul class="contact-icons">
+            <li class="icon fa-map-marker">
+              <address>
+                6566 University Blvd.<br />
+                Winter Park, FL 32792
+              </address>
+            </li>
+            <li class="icon fa-envelope">
+              <a href="mailto:info@lapelpinsandcoins.com" title="Drafts an email to us."
+                target="_blank">info@lapelpinsandcoins.com</a>
+            </li>
+            <li class="icon fa-twitter">
+              <a href="https://twitter.com/LapelPinsCoins" title="Links to twitter page." rel="noopener"
+                target="_blank">@LapelPinsCoins</a>
+            </li>
+            <li class="icon fa-phone">
+              <a href="tel:+18443954464" title="Calls our phone number.">+1 (844) 395-4464</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="copyright">
+        &copy; 2019 Lapel Pins and Coins, LLC. All rights reserved. Developed by: KJ
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/uglified.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-functions.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+
+  <!-- Load the Firebase SDKs before loading this file -->
+  <script src="/__/firebase/init.js"></script>
+  <script src="assets/js/pikaday.js"></script>
+  <script src="assets/js/browser-polyfill.min.js"></script>
+
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script>
+    var stripe = Stripe('pk_live_IdjziiRxhaPu7DEfYmHlPFkS00bsvL7U0q');
+    var elements = stripe.elements();
+  </script>
+
+  <script src="assets/js/checkout.min.js"></script>
+  <script>
+    // Custom styling can be passed to options when creating an Element.
+    var style = {
+      base: {
+        // Add your base input styles here. For example:
+        fontSize: '18px',
+        color: "#32325d",
+        fontFamily: 'Google Sans, Helvetica, Arial, sans-serif',
+      }
+    };
+
+    // Create an instance of the card Element.
+    var card = elements.create('card', { style: style });
+
+    // Add an instance of the card Element into the `card-element` <div>.
+    card.mount('#card-element');
+    card.addEventListener('change', function (event) {
+      var displayError = document.getElementById('card-errors');
+      if (event.error) {
+        displayError.textContent = event.error.message;
+      } else {
+        displayError.textContent = '';
+      }
+    });
+    // Shipping Form Listener
+    var shipform = document.getElementById('shippingInfo');
+    shipform.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      document.getElementById('changetext').innerHTML = 'Enter your billing information to complete checkout.'
+      document.getElementById('payment-form').style.display = "block";
+      document.getElementById('shippingInfo').style.display = "none";
+      document.getElementById('rstbtn').style.display = "block";
+    });
+
+    // Payment Form Listener
+    var form = document.getElementById('payment-form');
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      stripe.createToken(card).then(function (result) {
+        if (result.error) {
+          // Inform the customer that there was an error.
+          var errorElement = document.getElementById('card-errors');
+          errorElement.textContent = result.error.message;
+        } else {
+          // Send the token to your server.
+          stripeHandlerToken(result.token);
+          document.getElementById('payment-form').style.display = "none";
+          document.getElementById('final-details').style.display = "block";
+        }
+      });
+    });
+
+
+    // Details listener
+    var finalform = document.getElementById('final-details');
+    finalform.addEventListener('submit', function (event) {
+      $('#shippingInfo').unbind('submit').submit()
+    });
+
+  </script>
+
+</body>
+
+</html>
